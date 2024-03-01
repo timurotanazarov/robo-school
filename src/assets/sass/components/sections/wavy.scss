@@ -1,0 +1,33 @@
+.wavy{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    @media screen and (max-width: 501px) {
+        display: none;
+    }
+
+    &-minbox{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-color: #141024;
+        margin-right: 8%;
+    }
+    &-minbox2{
+        position: absolute;
+        width: 54px;
+        height: 54px;
+        background-color: #ffffff;
+        margin-right: 8%;
+        border-radius: 50%;
+    }
+    &-box{
+        position: absolute;
+        width: 8%;
+        background-color: #141024;
+        height: 240px;
+        border-bottom-left-radius:  56px;
+        border-bottom-right-radius: 56px;
+    }
+}

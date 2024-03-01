@@ -1,10 +1,13 @@
 import React from 'react'
-import { Contacts, Oshkole, Stoimost, Treneri } from '../_index'
+import { About, Abouttwo, Contacts, Oshkole, Stoimost, Treneri, Wavy } from '../_index'
 
 function main() {
   return (
     <div className="main">
         <Oshkole />
+        <Wavy />
+        <About />
+        <Abouttwo />
         <Treneri />
         <Stoimost />
         <Contacts />
