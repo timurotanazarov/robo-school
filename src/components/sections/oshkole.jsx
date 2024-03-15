@@ -3,7 +3,7 @@ import ImgMain from '../../../public/imgs/oshkoleimg.png'
 
 function oshkole() {
   return (
-    <div className="oshkole">
+    <div id='oshkole' className="oshkole">
       <div className="container">
         <div className="oshkole-row">
           <div className="oshkole-content">

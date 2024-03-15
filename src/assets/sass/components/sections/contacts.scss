@@ -1,0 +1,110 @@
+.contacts{
+    background: url('https://live.verstaem.online/robo-school/img/svg/percent.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #D52027;
+    padding: 87px 60px;
+
+    @media screen and (max-width: 501px) {
+        padding: 50px 45px;
+    }
+
+    &-row{
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: 501px) {
+           display: flex;
+           flex-direction: column;      
+           align-items: center;
+           text-align: center;
+           row-gap: 40px;
+        }
+    }
+
+    &-content{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+
+        h3{
+            max-width: 380px;
+            margin-bottom: 20px;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 46.8px;
+
+            @media screen and (max-width: 501px) {
+                font-size: 30px;
+                line-height: 42px;
+                padding-bottom: 10px;    
+            }
+        }
+
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26px;
+
+            @media screen and (max-width: 501px) {
+                font-size: 16px;
+                line-height: 25.6px;
+            }
+        }
+    }
+
+    &-forms{
+        display: flex;
+        flex-direction: column;
+
+        label{
+            width: 515px;
+            margin-bottom: 10px;
+
+            @media screen and (max-width: 501px) {
+                max-width: 450px;
+            }
+            @media screen and (max-width: 440px) {
+                max-width: 400px;
+            }
+            @media screen and (max-width: 415px) {
+                max-width: 380px;
+            }
+        }
+
+        input{
+            font-size: 18px;
+            font-weight: 400;
+            font-family: 'Jost';
+            width: 100%;
+            padding: 20px;
+            border-radius: 5px;
+            border-color: transparent;
+            border: 2px solid #F6F6F6;
+            background: #F6F6F6;
+            color: rgba(40, 41, 68, 0.7);
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                background: #e0e0e0;
+            }
+        }
+        button{
+            font-size: 18px;
+            font-weight: 400;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #141024;
+            border: 1px solid #141024;
+            font-family: 'Jost';
+            color: #fff;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                color: #D52027;
+                background-color: #fff;
+            }
+        }
+    }
+}

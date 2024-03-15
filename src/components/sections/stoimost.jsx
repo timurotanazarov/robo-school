@@ -2,7 +2,7 @@ import React from 'react'
 
 function stoimost() {
   return (
-    <div className="stoimost">
+    <div id='stoimost' className="stoimost">
       <div className="container">
         <div className="stoimost-row">
           <h1>Выберите нужный пакет</h1>

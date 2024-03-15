@@ -7,7 +7,7 @@ import InstagramIcon from '../../assets/icons/InstagramIcon'
 
 function treneri() {
   return (
-    <div className="treneri">
+    <div id='treneri' className="treneri">
       <div className="container">
         <div className="treneri-row">
           <h2 className="treneri-title">Профессиональные тренеры</h2>
