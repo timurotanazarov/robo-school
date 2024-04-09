@@ -1,9 +1,16 @@
 .header{
-    padding: 25px 0;
+    width: 100%;
+    padding: 25px 50px;
     background-color: #141024;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    unicode-bidi: isolate;
+    border-bottom: 1px solid #D52027;
+
 
     @media screen and (max-width: 501px) {
-        padding: 20px 0;
+        padding: 13px 0;
     }
 
     &-row{
@@ -137,7 +144,7 @@
         align-items: center;
         flex-direction: column;
         row-gap: 15px;
-        background-color: #8e7cd3;
+        background-color: #fff;
         opacity: 0;
         visibility: hidden;
         transition: all 0.2s ease-in-out;

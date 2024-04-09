@@ -19,7 +19,9 @@ function header() {
       <div className="container">
         <div className="header-row">
           <div className="header-logo">
-            <img src={Logo} alt="" />
+            <a href="">
+              <img src={Logo} alt="Logo" />
+            </a>
           </div>
           <div className="header-links">
             <a href="#oshkole">О школе</a>
