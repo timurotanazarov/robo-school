@@ -3,7 +3,7 @@ import ImgMain from '../../../public/imgs/oshkoleimg.png'
 
 function oshkole() {
   return (
-    <div id='oshkole' className="oshkole">
+    <section id='oshkole' className="oshkole">
       <div className="container">
         <div className="oshkole-row">
           <div className="oshkole-content">
@@ -16,7 +16,7 @@ function oshkole() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

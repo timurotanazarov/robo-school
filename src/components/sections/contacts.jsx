@@ -2,7 +2,7 @@ import React from 'react'
 
 function contacts() {
   return (
-    <div id='contacts' className="contacts">
+    <section id='contacts' className="contacts">
       <div className="container">
         <div className="contacts-row">
           <div className="contacts-content">
@@ -23,7 +23,7 @@ function contacts() {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function stoimost() {
   return (
-    <div id='stoimost' className="stoimost">
+    <section id='stoimost' className="stoimost">
       <div className="container">
         <div className="stoimost-row">
           <h1>Выберите нужный пакет</h1>
@@ -40,7 +40,7 @@ function stoimost() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
